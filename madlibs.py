@@ -1,22 +1,19 @@
 print("Enter 2 adjectives ")
-adj1 = input()
-adj2 = input()
+# adj1 = input()
+# adj2 = input()
+adj = [input(),input()]
 
 print("Enter a pronoun ")
-pronoun = input()
+pronoun = [input()]
 
 print("Enter 4 verbs ")
-verb1 = input()
-verb2 = input()
-verb3 = input()
-verb4 = input()
+verb = [input(),input(),input(),input()]
 
 print("Enter 2 nouns ")
-noun1 = input()
-noun2 = input()
+noun = [input(),input()]
 
-print("I woke up really " + adj1 + " into the night")
-print("I could barely see " + pronoun + " because the " + verb1 + " was out")
-print(noun2 + " was the only thing on my mind as I began " + verb2 + " my way to the " + noun1)
-print("I " + verb3 + " very slowly trying to be " + adj2)
-print("but mother woke me up and told me to " + verb4 + " back to bed")
+print("I woke up really " + adj[0] + " into the night")
+print("I could barely see " + pronoun[0] + " because the " + verb[0] + " was out")
+print(noun[1] + " was the only thing on my mind as I began " + verb[1] + " my way to the " + noun[0])
+print("I " + verb[2] + " very slowly trying to be " + adj[1])
+print("but mother woke me up and told me to " + verb[3] + " back to bed")
