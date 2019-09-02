@@ -1,16 +1,24 @@
+import random
+
+def randomize(pos):
+    random.shuffle(pos)
 
 
 print("Enter 2 adjectives ")
 adj = [input(),input()]
+randomize(adj)
 
 print("Enter a pronoun ")
 pronoun = input()
+randomize(pronoun)
 
 print("Enter 4 verbs ")
 verb = [input(),input(),input(),input()]
+randomize(verb)
 
 print("Enter 2 nouns ")
 noun = [input(),input()]
+randomize(noun)
 
 def libs():
     print("I woke up really " + adj[0] + " into the night")
